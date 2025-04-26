@@ -61,7 +61,7 @@ def image_dimensions(
 
 def ez_easel(
     paper_height: float, paper_width: float, image_height: float, image_width: float
-) -> Box:
+) -> EaselBlades:
     slot = easel_slot(paper_width)
 
     easel_center = Point(slot.width / 2, slot.height / 2)
